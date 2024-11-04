@@ -12,3 +12,6 @@ todo { color: #ff6600; background: rgba(255, 102, 0, 0.1); border: 1px solid #ff
 todo b { color: white; background: #ff6600; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
 done { color: #009900; background: rgba(0, 153, 0, 0.1); border: 1px solid #009900; border-radius: 4px; padding: 2px 2px; }
 done b { color: white; background: #009900; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
+
+date { color: #666666; background: rgba(102, 102, 102, 0.1); border: 1px solid #666666; border-radius: 4px; padding: 2px 2px; font-size: 0.8em; }
+date b { color: white; background: #666666; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
