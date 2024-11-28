@@ -15,3 +15,73 @@ todo b { color: white; background: #ff6600; border-radius: 4px; padding: 3px 5px
 done { color: #009900; background: rgba(0, 153, 0, 0.1); border: 1px solid #009900; border-radius: 4px; padding: 2px 2px; }
 done b { color: white; background: #009900; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
 
+/* JIRA Block Styling */
+blockquote.jira {
+    background-color: #1f2d3d; /* Dark background for JIRA block */
+    color: #ffffff; /* White text for readability */
+    border-left: 10px solid #007acc; /* Blue border to distinguish JIRA blocks */
+    padding: 1em; /* Padding for spacing */
+    font-family: Arial, sans-serif; /* Consistent font */
+}
+
+blockquote.jira a {
+    color: #4fc3f7; /* Light blue for links */
+    text-decoration: none;
+}
+
+blockquote.jira a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+blockquote.jira subject {
+    color: #ffffff;
+    background: #34495e; /* Dark gray background for the subject */
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+blockquote.jira subject b {
+    color: #34495e; /* Dark text on light background */
+    background: #ecf0f1; /* Light gray background */
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin-left: -3px;
+}
+
+blockquote.jira todo,
+blockquote.jira done {
+    color: #ffcc00; /* Yellow color for todos and done items */
+    background: rgba(255, 204, 0, 0.1);
+    border: 1px solid #ffcc00;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 0.9em;
+}
+
+blockquote.jira todo b,
+blockquote.jira done b {
+    color: #1f2d3d; /* Dark text on light yellow background */
+    background: #ffcc00; /* Yellow background */
+    border-radius: 4px;
+    padding: 3px 5px;
+    margin-left: -4px;
+}
+
+blockquote.jira date {
+    color: #bdc3c7; /* Light gray color for dates */
+    background: rgba(189, 195, 199, 0.1);
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 0.8em;
+}
+
+blockquote.jira date b {
+    color: #1f2d3d; /* Dark text on light gray background */
+    background: #bdc3c7; /* Light gray background */
+    border-radius: 4px;
+    padding: 3px 5px;
+    margin-left: -4px;
+}
