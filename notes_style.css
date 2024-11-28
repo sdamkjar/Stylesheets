@@ -17,15 +17,15 @@ done b { color: white; background: #009900; border-radius: 4px; padding: 3px 5px
 
 /* JIRA Block Styling */
 blockquote.jira {
-    background-color: #1f2d3d; /* Dark background for JIRA block */
-    color: #ffffff; /* White text for readability */
-    border-left: 10px solid #007acc; /* Blue border to distinguish JIRA blocks */
+    background-color: #e3f2fd; /* Light blue background for JIRA block */
+    color: #0d47a1; /* Dark blue text for readability */
+    border-left: 10px solid #42a5f5; /* Bright blue border to distinguish JIRA blocks */
     padding: 1em; /* Padding for spacing */
     font-family: Arial, sans-serif; /* Consistent font */
 }
 
 blockquote.jira a {
-    color: #4fc3f7; /* Light blue for links */
+    color: #1976d2; /* Medium blue for links */
     text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ blockquote.jira a:hover {
 
 blockquote.jira subject {
     color: #ffffff;
-    background: #34495e; /* Dark gray background for the subject */
+    background: #64b5f6; /* Light blue background for the subject */
     border-radius: 4px;
     padding: 4px 8px;
     font-size: 1em;
@@ -43,8 +43,8 @@ blockquote.jira subject {
 }
 
 blockquote.jira subject b {
-    color: #34495e; /* Dark text on light background */
-    background: #ecf0f1; /* Light gray background */
+    color: #64b5f6; /* Light blue text */
+    background: #ffffff; /* White background */
     border-radius: 4px;
     padding: 4px 6px;
     margin-left: -3px;
@@ -52,9 +52,9 @@ blockquote.jira subject b {
 
 blockquote.jira todo,
 blockquote.jira done {
-    color: #ffcc00; /* Yellow color for todos and done items */
-    background: rgba(255, 204, 0, 0.1);
-    border: 1px solid #ffcc00;
+    color: #0288d1; /* Blue color for todos and done items */
+    background: rgba(2, 136, 209, 0.1);
+    border: 1px solid #0288d1;
     border-radius: 4px;
     padding: 2px 4px;
     font-size: 0.9em;
@@ -62,25 +62,25 @@ blockquote.jira done {
 
 blockquote.jira todo b,
 blockquote.jira done b {
-    color: #1f2d3d; /* Dark text on light yellow background */
-    background: #ffcc00; /* Yellow background */
+    color: #e3f2fd; /* Light text on blue background */
+    background: #0288d1; /* Blue background */
     border-radius: 4px;
     padding: 3px 5px;
     margin-left: -4px;
 }
 
 blockquote.jira date {
-    color: #bdc3c7; /* Light gray color for dates */
-    background: rgba(189, 195, 199, 0.1);
-    border: 1px solid #bdc3c7;
+    color: #1565c0; /* Medium blue for dates */
+    background: rgba(21, 101, 192, 0.1);
+    border: 1px solid #1565c0;
     border-radius: 4px;
     padding: 2px 4px;
     font-size: 0.8em;
 }
 
 blockquote.jira date b {
-    color: #1f2d3d; /* Dark text on light gray background */
-    background: #bdc3c7; /* Light gray background */
+    color: #e3f2fd; /* Light text on medium blue background */
+    background: #1565c0; /* Medium blue background */
     border-radius: 4px;
     padding: 3px 5px;
     margin-left: -4px;
