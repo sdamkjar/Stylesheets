@@ -14,26 +14,7 @@ todo { color: #ff6600; background: rgba(255, 102, 0, 0.1); border: 1px solid #ff
 todo b { color: white; background: #ff6600; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
 done { color: #009900; background: rgba(0, 153, 0, 0.1); border: 1px solid #009900; border-radius: 4px; padding: 2px 2px; }
 done b { color: white; background: #009900; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
-
-blockquote.jira {
-    background-color: #e3f2fd; /*  Light blue background for JIRA block */
-    color: #0d47a1; /* Dark blue text for readability */
-    border-left: 10px solid #42a5f5; /* Bright blue border to distinguish JIRA blocks */
-    padding: 0.5em; /* Padding for spacing */
-}
-
-blockquote.jira a {
-    color: #1976d2; /* Medium blue for links */
-}
-
-blockquote.jira subject {
-    color: #ffffff;
-    background: #64b5f6; /* Light blue background for the subject */
-    border-radius: 4px; padding: 2px 2px; font-size: 0.8em; 
-}
-
-blockquote.jira subject b {
-    color: #64b5f6; /* Light blue text */
-    background: #ffffff; /* White background */
-    border-radius: 4px; padding: 3px 5px 2px; margin-left: -3px;
-}
+blockquote.jira { background-color: #e3f2fd; color: #0d47a1; border-left: 10px solid #42a5f5; padding: 0.5em; }
+blockquote.jira a { color: #1976d2; }
+blockquote.jira subject { color: #ffffff; background: #64b5f6; border-radius: 4px; padding: 2px 2px; font-size: 0.8em; }
+blockquote.jira subject b { color: #64b5f6; background: #ffffff; border-radius: 4px; padding: 3px 5px 2px; margin-left: -3px; }
