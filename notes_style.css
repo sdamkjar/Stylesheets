@@ -16,7 +16,7 @@ done { color: #009900; background: rgba(0, 153, 0, 0.1); border: 1px solid #0099
 done b { color: white; background: #009900; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
 
 blockquote.jira {
-    background-color: #e3f2fd; /* Light blue background for JIRA block */
+    background-color: #e3f2fd; /*  Light blue background for JIRA block */
     color: #0d47a1; /* Dark blue text for readability */
     border-left: 10px solid #42a5f5; /* Bright blue border to distinguish JIRA blocks */
     padding: 0.5em; /* Padding for spacing */
