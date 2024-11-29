@@ -15,73 +15,25 @@ todo b { color: white; background: #ff6600; border-radius: 4px; padding: 3px 5px
 done { color: #009900; background: rgba(0, 153, 0, 0.1); border: 1px solid #009900; border-radius: 4px; padding: 2px 2px; }
 done b { color: white; background: #009900; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
 
-/* JIRA Block Styling  */
 blockquote.jira {
     background-color: #e3f2fd; /* Light blue background for JIRA block */
     color: #0d47a1; /* Dark blue text for readability */
     border-left: 10px solid #42a5f5; /* Bright blue border to distinguish JIRA blocks */
-    padding: 1em; /* Padding for spacing */
-    font-family: Arial, sans-serif; /* Consistent font */
+    padding: 0.5em; /* Padding for spacing */
 }
 
 blockquote.jira a {
     color: #1976d2; /* Medium blue for links */
-    text-decoration: none;
-}
-
-blockquote.jira a:hover {
-    text-decoration: underline; /* Underline links on hover */
 }
 
 blockquote.jira subject {
     color: #ffffff;
     background: #64b5f6; /* Light blue background for the subject */
-    border-radius: 4px;
-    padding: 4px 8px;
-    font-size: 1em;
-    font-weight: bold;
+    border-radius: 4px; padding: 2px 2px; font-size: 0.8em; 
 }
 
 blockquote.jira subject b {
     color: #64b5f6; /* Light blue text */
     background: #ffffff; /* White background */
-    border-radius: 4px;
-    padding: 4px 6px;
-    margin-left: -3px;
-}
-
-blockquote.jira todo,
-blockquote.jira done {
-    color: #0288d1; /* Blue color for todos and done items */
-    background: rgba(2, 136, 209, 0.1);
-    border: 1px solid #0288d1;
-    border-radius: 4px;
-    padding: 2px 4px;
-    font-size: 0.9em;
-}
-
-blockquote.jira todo b,
-blockquote.jira done b {
-    color: #e3f2fd; /* Light text on blue background */
-    background: #0288d1; /* Blue background */
-    border-radius: 4px;
-    padding: 3px 5px;
-    margin-left: -4px;
-}
-
-blockquote.jira date {
-    color: #1565c0; /* Medium blue for dates */
-    background: rgba(21, 101, 192, 0.1);
-    border: 1px solid #1565c0;
-    border-radius: 4px;
-    padding: 2px 4px;
-    font-size: 0.8em;
-}
-
-blockquote.jira date b {
-    color: #e3f2fd; /* Light text on medium blue background */
-    background: #1565c0; /* Medium blue background */
-    border-radius: 4px;
-    padding: 3px 5px;
-    margin-left: -4px;
+    border-radius: 4px; padding: 3px 5px 2px; margin-left: -3px;
 }
