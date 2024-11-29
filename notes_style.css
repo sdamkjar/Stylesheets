@@ -15,7 +15,7 @@ todo b { color: white; background: #ff6600; border-radius: 4px; padding: 3px 5px
 done { color: #009900; background: rgba(0, 153, 0, 0.1); border: 1px solid #009900; border-radius: 4px; padding: 2px 2px; }
 done b { color: white; background: #009900; border-radius: 4px; padding: 3px 5px 2px; margin-left: -4px; }
 
-/* JIRA Block Styling */
+/* JIRA Block Styling  */
 blockquote.jira {
     background-color: #e3f2fd; /* Light blue background for JIRA block */
     color: #0d47a1; /* Dark blue text for readability */
