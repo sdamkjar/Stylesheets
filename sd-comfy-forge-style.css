@@ -1,0 +1,108 @@
+/* Base body */
+/* Dark background and light text */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  padding: 1em;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+/* Level 3 headers with bullet */
+h3::before {
+  content: "• ";
+  color: #bbbbbb;
+  font-weight: bold;
+  margin-right: 0.25em;
+}
+
+/* Links */
+a {
+  color: #80cbc4;
+}
+a:hover {
+  color: #26a69a;
+  text-decoration: underline;
+}
+
+/* Code blocks */
+
+a code {
+  background-color: #4164ff;
+  color: #f8f8f2;
+  padding: 0em 0.3em;
+  border-radius: 4px;
+  font-family: Consolas, Monaco, monospace;
+}
+
+.lora-usage {
+  border-left: 4px solid #ff9800;    /* bold orange bar */
+  color: #ffcc80;                    /* light orange text */
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.lora-usage pre {
+  background-color: #522500;
+}
+
+.lora-usage code {
+  color: #ffd180;
+}
+
+/* Inline elements */
+strong {
+  color: #000;
+}
+
+em {
+  color: #555;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.2em;
+  padding-left: 0.6em;
+}
+
+/* Links */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Custom: API Key display block */
+.api-key {
+  font-family: monospace;
+  background: #fff6e6;
+  border: 1px solid #e0c97f;
+  padding: 0.5em;
+  border-radius: 4px;
+  color: #333;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+/* Custom: API Key display block */
+.api-key:b {
+  font-weight: bold;
+}
+
+/* Headings */
+h3::before {
+  content: "• ";
+  color: #555;        /* Optional: customize bullet color */
+  font-weight: bold;  /* Optional: make it more visible */
+  margin-right: 0.25em;
+}
+
+
